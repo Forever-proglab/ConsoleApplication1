@@ -4,7 +4,8 @@
 using namespace std;
 int main()
 {
-    cout << "Hello World!_7";
+    int t;
+    cout << "Hello World!_7"; cin >> t; cout << t++;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
