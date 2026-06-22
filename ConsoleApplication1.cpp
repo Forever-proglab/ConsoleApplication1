@@ -4,10 +4,10 @@
 using namespace std;
 int main()
 {
-    int t, i, h;
+    int t, i, h, y;
     cout << "Hello World!_7" << endl; cin >> t; 
-    cout << ++t; t = 1;
-    for (i = 1; i < t; i++) {
+    cout << ++t; cin >> y;
+    for (i = 1; i < y; i++) {
         for (h = 1; h < i; h++) {
             t = t * h; cout << t;
         }
