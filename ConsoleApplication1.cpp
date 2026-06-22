@@ -4,10 +4,14 @@
 using namespace std;
 int main()
 {
-    int t;
+    int t, i, h;
     cout << "Hello World!_7" << endl; cin >> t; 
-    cout << ++t;
-
+    cout << ++t; t = 1;
+    for (i = 1; i < t; i++) {
+        for (h = 1; h < i; h++) {
+            t = t * h; cout << t;
+        }
+    }
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
