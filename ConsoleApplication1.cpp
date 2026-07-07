@@ -4,14 +4,11 @@
 using namespace std;
 int main()
 {
-    int t, i, h, y;
-    cout << "Hello World!_7" << endl; cin >> t; 
-    cout << ++t; cin >> y;
-    for (i = 1; i < y; i++) {
-        for (h = 1; h < i; h++) {
-            t = t * h; cout << t;
-        }
+    int m, y; float g = 9.81; cin >> m >> y;
+    for (m; m <= y; m++) {
+        cout << "Сила тяжести на Земле, равная " << m * g << " H, " << "пропорцианальна силе тяжести на Луне, равной " << 0.17 * g * m << "H";
     }
+    return 0;
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
