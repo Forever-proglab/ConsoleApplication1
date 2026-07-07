@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-    int m, y; float g = 9.81; cin >> m >> y;
+    int m, y; float g = 10; cin >> m >> y;
     for (m; m <= y; m++) {
         cout << "Сила тяжести на Земле, равная " << m * g << " H, " << "пропорцианальна силе тяжести на Луне, равной " << 0.17 * g * m << "H";
     }
