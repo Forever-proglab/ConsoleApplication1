@@ -4,9 +4,20 @@
 using namespace std;
 int main()
 {
-    int m, y; float g = 10; cin >> m >> y;
-    for (m; m <= y; m++) {
-        cout << m * g << 0.17 * g * m;
+    double m, km; 
+    double c;
+    double g = 10.0;
+    c = 0;
+    for (m=1; m <= 100; m++) {
+        cout << m*g << "\n";
+        cout << m*g*0.17 << '\n';
+        c++;
+        if (c==25)
+        {
+            cout << "\n";
+            c = 0;
+        }
+ //       cout << m *0.17* g;
     }
     return 0;
 }
