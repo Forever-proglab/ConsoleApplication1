@@ -4,11 +4,12 @@
 using namespace std;
 int main()
 {
-    double m, km; 
+    double m, km, t; 
     double c;
-    double g = 10.0;
+    double g = 9.812;
+    cin >> m; cin >> t;
     c = 0;
-    for (m=1; m <= 100; m++) {
+    for (m; m <= t; m++) {
         cout << m*g << "\n";
         cout << m*g*0.17 << '\n';
         c++;
