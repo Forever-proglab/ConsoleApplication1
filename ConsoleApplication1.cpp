@@ -10,7 +10,7 @@ int main()
     cin >> m; cin >> t;
     c = 0;
     for (m; m <= t; m++) {
-        cout << m*g << "\n";
+        cout << m*g << endl;
         cout << m*g*0.17 << '\n';
         c++;
         if (c==25)
