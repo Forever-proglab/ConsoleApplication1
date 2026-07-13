@@ -4,16 +4,16 @@
 using namespace std;
 int main()
 {
-    double m, km, t; 
+    double m, km, t;
     double c;
     double g = 9.812;
     cin >> m; cin >> t;
     c = 0;
     for (m; m <= t; m++) {
-        cout << m*g << "\n";
-        cout << m*g*0.17 << '\n';
+        cout << m * g << "\n";
+        cout << m * g * 0.17 << '\n';
         c++;
-        if (c==25)
+        if (c == 25)
         {
             cout << "\n";
             c = 0;
