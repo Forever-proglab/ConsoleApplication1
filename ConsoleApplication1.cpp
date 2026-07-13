@@ -18,7 +18,6 @@ int main()
             cout << "\n";
             c = 0;
         }
- //       cout << m *0.17* g;
     }
     return 0;
 }
