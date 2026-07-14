@@ -4,9 +4,11 @@
 using namespace std;
 int main()
 {
-    double jy, m, c; c = 0;
-    double g = 9.812; cin >> jy;
-    cout << 12 * jy;
+    float jy = 0, m, c=1, g = 9.812; cin >> m;
+    while (m != 0) {
+        jy = (jy + m) / c; c += 1;cout<<c; cin >> m;
+    }
+    cout << jy;
     /*
     for (m=1; m <= jy; m++) {
         cout << m*g << endl;
