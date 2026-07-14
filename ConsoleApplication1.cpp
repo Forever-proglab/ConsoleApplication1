@@ -4,21 +4,21 @@
 using namespace std;
 int main()
 {
-    double m, km, t; 
-    double c;
-    double g = 9.812;
-    cin >> m; cin >> t;
-    c = 0;
-    for (m; m <= t; m++) {
+    double jy, m, c; c = 0;
+    double g = 9.812; cin >> jy;
+    cout << 12 * jy;
+    /*
+    for (m=1; m <= jy; m++) {
         cout << m*g << endl;
         cout << m*g*0.17 << '\n';
         c++;
         if (c==25)
         {
-            cout << "\n";
+            cout << endl;
             c = 0;
         }
     }
+    */
     return 0;
 }
 
