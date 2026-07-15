@@ -4,11 +4,15 @@
 using namespace std;
 int main()
 {
-    float jy = 0, m, c=0, g = 9.812; cin >> m;
-    while (m != 0) {
-        jy = jy + abs(m); c++; cin >> m;
+    float jy = 0, m, c = 0, g = 9.812; char t; cin >> t;
+    while (t != '$') {
+        if (t=='.')
+        {
+            ++c;
+        }
+        cin >> t;
     }
-    cout << jy/c;
+    cout << c;
     /*
     for (m=1; m <= jy; m++) {
         cout << m*g << endl;
