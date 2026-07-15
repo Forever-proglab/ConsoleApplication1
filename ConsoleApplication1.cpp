@@ -6,7 +6,7 @@ int main()
 {
     float jy = 0, m, c=0, g = 9.812; cin >> m;
     while (m != 0) {
-        jy = jy + m; c++; cin >> m;
+        jy = jy + abs(m); c++; cin >> m;
     }
     cout << jy/c;
     /*
