@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-    float jy = 0, m, c, g = 9.812; char t; cin >> c; cin >> m;
+    float jy = 0, m, c, g = 9.812; char t; cin >> m; cin >> c;
     for (m; m >= c; m=m-2) cout << m<<endl;
     
     /*
