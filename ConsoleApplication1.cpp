@@ -5,7 +5,7 @@ using namespace std;
 int main()
 {
     float jy = 0, m, c, g = 9.812; char t; cin >> m; cin >> c;
-    for (m; m >= c; m=m-2) cout << m<<endl;
+    for (m; m <= c; m *= 2) cout << m << endl;
     
     /*
     for (m=1; m <= jy; m++) {
