@@ -4,16 +4,14 @@
 using namespace std;
 int main()
 {
-    float jy = 0; int m; float c, g = 9.812; char t; cout << 9;
-    
+    float jy = 0; int m; float c, g = 9.812; char t; int hightemps[10];
+    cout << 45;
     /*
     for (m=1; m <= jy; m++) {
         cout << m*g << endl;
         cout << m*g*0.17 << '\n';
         c++;
-        if (c==25)
-        {
-            cout << endl;
+        if (c==25){
             c = 0;
         }
     }
