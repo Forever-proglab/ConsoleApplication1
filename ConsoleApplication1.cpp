@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-    float jy = 0; int m; float c, g = 9.812; char t; int hightemps[10];
+    float jy = 0; int m; float c, g = 9.812; char t='uyy'; int hightemps[10];
     cout << 45;
     /*
     for (m=1; m <= jy; m++) {
@@ -16,7 +16,7 @@ int main()
         }
     }
     */
-    return 0;
+    
 }
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
 // Отладка программы: F5 или меню "Отладка" > "Запустить отладку"
