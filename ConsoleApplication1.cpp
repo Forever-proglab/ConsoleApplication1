@@ -2,10 +2,14 @@
 //
 #include <iostream>
 using namespace std;
+bool is_prime() {
+    cout << 5;
+    return true;
+}
 int main()
 {
-    float jy = 0; int m; float c, g = 9.812; char t='uyy'; int hightemps[10];
-    cout << 45;
+    float jy = 0; int m; float c, g = 9.812; char t='uyy';
+    is_prime();
     /*
     for (m=1; m <= jy; m++) {
         cout << m*g << endl;
