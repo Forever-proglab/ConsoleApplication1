@@ -6,22 +6,20 @@ using namespace std;
 int j, k;
 int main()
 {
-    double a, b, c, d, e, g = 9.812; cin >> d; cout << pow(d, 0.5) << '\n' << 'k'; a = b = c = d = e = 1;
-    for (a; a < 150; a + 1) {
-        for (b; b < 150; b + 1) {
-            for (c; c < 150; c + 1) {
-                for (d; d < 150; d + 1) {
-                    for (e; e < 150; e + 1) {
-                        if ((pow(a, 5) + pow(a, 5) + pow(a, 5) + pow(a, 5) + pow(a, 5))==pow(e,5)) {
-                            cout << a << '\n' << b << '\n' << c << '\n' << d << '\n' << e << '\n' << a+b+c+d+e << '\n';
-                            continue;
-                        }
-                    }
+    int a=1, b=1, c=1, d, e, g = 9.812; cin >> d; cout << pow(d, 0.5) << '\n' << 'k'; 
+    for (a=1 ; a <=150; ) {
+        for ( b=1; b <= 150; ) {
+            for ( c=1; c <= 150; ) {
+                if (28*a + 30*b + 31*c == 365) {
+                    cout << a << '\n' << b<<'\n' << c;
                 }
+                ++c;
             }
+            ++b;
         }
+        ++a;
     }
-    
+    return 0;
     /*
     for (m=1; m <= jy; m++) {
         cout << m*g << endl;
