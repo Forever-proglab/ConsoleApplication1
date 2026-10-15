@@ -1,0 +1,17 @@
+[
+  {
+    "Name": "Новый профиль",
+    "Projects": [
+      {
+        "Path": "Code2\\Code2.vcxproj",
+        "Action": "Start",
+        "DebugTarget": "Локальный отладчик Windows"
+      },
+      {
+        "Path": "ConsoleApplication1.vcxproj",
+        "Action": "Start",
+        "DebugTarget": "Локальный отладчик Windows"
+      }
+    ]
+  }
+]
