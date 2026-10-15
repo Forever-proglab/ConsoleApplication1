@@ -3,10 +3,10 @@
 
 #include <iostream>
 using namespace std;
-double c=6;
 int main()
 {
-	cout << c;
+	double R1, R2, R3; cin >> R1 >> R2 >> R3;
+	(R1<=0 || R2 <= 0 || R3 <= 0) ? cout << "Ошибка ввода" : cout << 1/(1/R1 + 1/R2 + 1/R3);
 }
 
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
