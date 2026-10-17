@@ -6,12 +6,12 @@ using namespace std;
 int j, k;
 int main()
 {
-    double a, b, c, d, m, g = 9.812; cin >> d; cout << pow(d, 0.5) << '\n' << 'k';
+    double a, b, c, d, m, g = 9.812; cin >> d; cout << pow(d, 0.5) << '\n' << "k\n";
     cin >> a >> b >> c;
     if (a > b) m = a;
     else m = b;
     if (c > m) m = c;
-    cout << m;
+    cout << m<<endl; m = 1; for (; m <= 90; m += 1) cout << m<<'\n';
     return 0;
 }
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
