@@ -5,7 +5,12 @@
 using namespace std;
 int main()
 {
-	double a, b, c; cin >> a >> b >> c; (a>=b and b>=c) or (a<=b and b<=c) ? cout<<"Chisla a, b, c vedeni po poryadku": cout << "Chisla a, b, c vedeni ne po poryadku";
+	double a, b, c; 
+	cin >> a >> b >> c;
+	(a>=b and b>=c) or (a<=b and b<=c) ? cout<<"Chisla a, b, c vvedeni po poryadku": cout << "Chisla a, b, c vvedeni ne po poryadku";
+	/* ? - это тернарный (троичный) оператор. Он требует трёх операндов. Общий вид: Выраж1 ? Выраж2 : Выраж3;.
+	Проверяется Выраж1, если оно истинно, выполняется Выраж2. Если Выраж1 ложно, выполняется Выраж3.
+	*/
 	return 0;
 }
 

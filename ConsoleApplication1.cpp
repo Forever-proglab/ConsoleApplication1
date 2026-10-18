@@ -6,7 +6,10 @@ using namespace std;
 int j, k;
 int main()
 {
-    double a, b, c, d, m, g = 9.812; cin >> d; cout << pow(d, 0.5) << '\n' << "k\n";
+    double a, b, c, d, m, g = 9.812; 
+    
+    cin >> d; cout << pow(d, 0.5) << '\n' << "k\n";
+    
     cin >> a >> b >> c;
     if (a > b) m = a;
     else m = b;
