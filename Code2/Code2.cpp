@@ -5,7 +5,7 @@
 using namespace std;
 int main()
 {
-	cout << "Hello World!\n";
+	double a, b, c; cin >> a >> b >> c; (a>=b and b>=c) or (a<=b and b<=c) ? cout<<"Chisla a, b, c vedeni po poryadku": cout << "Chisla a, b, c vedeni ne po poryadku";
 	return 0;
 }
 
