@@ -2,12 +2,19 @@
 //
 
 #include <iostream>
+#include <windows.h>
+#include <locale.h>
 using namespace std;
 int main()
 {
+	SetConsoleOutputCP(1251);
+	SetConsoleCP(1251);
+	setlocale(LC_ALL, "Russian");
 	double a, b, c; 
+	
 	cin >> a >> b >> c;
-	(a>=b and b>=c) or (a<=b and b<=c) ? cout<<"Chisla a, b, c vvedeni po poryadku": cout << "Chisla a, b, c vvedeni ne po poryadku";
+	
+	(a>=b and b>=c) or (a<=b and b<=c) ? cout<<"Числа a, b, c введены не по порядку": cout << "Числа a, b, c введены не по порядку";
 	/* ? - это тернарный (троичный) оператор. Он требует трёх операндов. Общий вид: Выраж1 ? Выраж2 : Выраж3;.
 	Проверяется Выраж1, если оно истинно, выполняется Выраж2. Если Выраж1 ложно, выполняется Выраж3.
 	*/

@@ -2,11 +2,20 @@
 //
 
 #include <iostream>
+#include <windows.h>
+#include <locale.h>
 using namespace std;
 int main()
 {
-	double R1, R2, R3; cin >> R1 >> R2 >> R3;
-	(R1<=0 || R2 <= 0 || R3 <= 0) ? cout << "Oshibka vvoda chisel" : cout <<"Soprotivlenie cepi ravno " << 1 / (1 / R1 + 1 / R2 + 1 / R3);
+	SetConsoleOutputCP(1251);
+	SetConsoleCP(1251);
+	setlocale(LC_ALL, "Russian");
+
+	double R1, R2, R3; 
+	
+	cin >> R1 >> R2 >> R3;
+	
+	(R1<=0 || R2 <= 0 || R3 <= 0) ? cout << "Ошибка ввода чисел" : cout <<"Сопротивление соединения равно " << 1 / (1 / R1 + 1 / R2 + 1 / R3);
 	/* ? - это тернарный (троичный) оператор. Он требует трёх операндов. Общий вид: Выраж1 ? Выраж2 : Выраж3;. 
 	Проверяется Выраж1, если оно истинно, выполняется Выраж2. Если Выраж1 ложно, выполняется Выраж3.
 	*/
