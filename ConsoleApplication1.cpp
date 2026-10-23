@@ -1,20 +1,20 @@
 ﻿// ConsoleApplication1.cpp : Этот файл содержит функцию "main". Здесь начинается и заканчивается выполнение программы.
 //
 #include <iostream>
-//#include <cmath>
+#include <windows.h>
+#include <locale.h>
 using namespace std;
-int j, k;
+int i=0; const int n = 10;
 int main()
-{
-    double a, b, c, d, m, g = 9.812; 
-    
-    cin >> d; cout << pow(d, 0.5) << '\n' << "k\n";
-    
-    cin >> a >> b >> c;
-    if (a > b) m = a;
-    else m = b;
-    if (c > m) m = c;
-    cout << m<<endl; m = 1; for (; m <= 90; m += 1) cout << m<<'\n';
+{   
+    SetConsoleOutputCP(1251);
+    SetConsoleCP(1251);
+    setlocale(LC_ALL, "Russian");
+    double a[10], b[12], c[n], h[2 * n + 4];
+    for (; i < 10; i++) cin >> a[i];
+    for (i = 0; i < 10; i++) if (a[i] > 0) c[i] = a[i]; 
+    cout << "Ведёный массив:\n"; for (i = 0; i < 10; i++) cout << a[i] << ' ';
+    cout << "Сформирован массив:\n"; for (i = 0; i < 10; i++) cout << c[i]<<' ';
     return 0;
 }
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
