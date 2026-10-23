@@ -10,11 +10,7 @@ int main()
     SetConsoleOutputCP(1251);
     SetConsoleCP(1251);
     setlocale(LC_ALL, "Russian");
-    double a[10], b[12], c[n], h[2 * n + 4];
-    for (; i < 10; i++) cin >> a[i];
-    for (i = 0; i < 10; i++) if (a[i] > 0) c[i] = a[i]; 
-    cout << "Ведёный массив:\n"; for (i = 0; i < 10; i++) cout << a[i] << ' ';
-    cout << "Сформирован массив:\n"; for (i = 0; i < 10; i++) cout << c[i]<<' ';
+    cout << "Привет, мир!\n" << "ytty";
     return 0;
 }
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
