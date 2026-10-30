@@ -4,13 +4,22 @@
 #include <windows.h>
 #include <locale.h>
 using namespace std;
-int i=0; const int n = 10;
 int main()
 {   
     SetConsoleOutputCP(1251);
     SetConsoleCP(1251);
     setlocale(LC_ALL, "Russian");
-    cout << "Привет, мир!\n" << "ytty";
+    long int n, m; const int N = 20;
+    int i, k=0, c[N];
+    cin >> n; m = n;
+    n = n < 0 ? n = -n : n = n;
+    for (i = 0; i < N; i++) c[i] = 0;
+    do {
+        k = n % 10; c[k]++;
+        n = n / 10;
+    } while (n != 0);
+    for (i = 0; i < 10; i++)
+        cout << "Цифра " << i << " встречается в числе " << m << " " << c[i] << " раз\n";
     return 0;
 }
 // Запуск программы: CTRL+F5 или меню "Отладка" > "Запуск без отладки"
