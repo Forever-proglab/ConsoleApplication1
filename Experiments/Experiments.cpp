@@ -11,18 +11,18 @@ int main()
 	SetConsoleCP(1251);
 	setlocale(LC_ALL, "Russian");
 
-	double R1, R2, R3, R; 
-	
+	double R1, R2, R3, R;
+
 	cout << "R1="; cin >> R1;
 	cout << "R2="; cin >> R2;
 	cout << "R3="; cin >> R3;
 
 	if (R1 < 0 || R2 < 0 || R3 < 0) cout << "Ошибка ввода чисел";
 	else if (R1 == 0 || R2 == 0 || R3 == 0) cout << "Сопротивление сопротивления равно 0";
-	
-	else { 
+
+	else {
 		R = 1 / (1 / R1 + 1 / R2 + 1 / R3);
-		
+
 		cout << "Сопротивление соединения равно " << R;
 	}
 	return 0;
